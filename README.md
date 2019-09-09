@@ -3,7 +3,7 @@ Simple Amazon-like Product selling system using Mysql and Node.js  The system di
 
 BamazonCustomer:
 
-displays a table with the inventory
-takes a customer's order
-computes the cost
-depletes the stock from the store's inventory
+Displays a table with the inventory
+Takes a customer's order
+Computes the cost
+Depletes the stock from the store's inventory
