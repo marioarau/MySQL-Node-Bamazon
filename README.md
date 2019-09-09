@@ -14,10 +14,10 @@ Order Processing
 ![Process the Order](/images/image2.JPG)
 
 Processing Code path for incorrect ID
-![Incorrect ID Processing](/images/customer3.JPG)
+![Incorrect ID Processing](/images/customer3.jpg)
 
 Insufficient Quantity Processing
-![Insufficient Quantity](/images/customer4.JPG)
+![Insufficient Quantity](/images/customer4.jpg)
 
 Bamazon Manager Processing
 
