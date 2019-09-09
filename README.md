@@ -7,3 +7,7 @@ BamazonCustomer:
 * Takes a customer's order
 * Computes the cost
 * Depletes the stock from the store's inventory
+
+![display the inventory in a table](/images/image1.jpg)
+
+![Process the Order](/images/image2.jpg)
