@@ -8,6 +8,6 @@ BamazonCustomer:
 * Computes the cost
 * Depletes the stock from the store's inventory
 
-![display the inventory in a table](/images/image1.jpg)
+![display the inventory in a table](/images/image1.JPG)
 
-![Process the Order](/images/image2.jpg)
+![Process the Order](/images/image2.JPG)
