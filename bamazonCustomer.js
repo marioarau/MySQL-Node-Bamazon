@@ -34,7 +34,7 @@ function listAllProducts() {
       //console.log(res[i].id + " | " + res[i].product_name + " | " + res[i].department_name + " | " + res[i].price + " | " + res[i].stock_qty);
       // table is an Array, so you can `push`, `unshift`, `splice` and friends
       table.push(
-        [res[i].id, res[i].product_name, res[i].department_name, "$" + res[i].price, res[i].stock_qty]
+        [res[i].id, res[i].product_name, res[i].department_name, "$" + res[i].price.toFixed(2), res[i].stock_qty]
       );
 
     }
@@ -84,11 +84,13 @@ function checkProductAvailability(productID, unitsOfProduct) {
           processOrder(res, unitsOfProduct);
         }
         else {
-          console.log("We have the product. However we have an insufficient quantity.");
+          console.log("\nWe have the product. However we have an insufficient quantity.\n");
+          listAllProducts();
         }
       }
       else {
-        console.log("We have no product with the ID entered.");
+        console.log("\nWe have no product with the ID entered.\n");
+        listAllProducts();
       }
     });
 }
@@ -101,7 +103,7 @@ function processOrder(res, unitsOfProduct) {
   department_name = res[0].department_name;
   console.log("Department: " + department_name);
   price = res[0].price;
-  console.log("Price: $" + price);
+  console.log("Price: $" + price.toFixed(2));
   quantity = res[0].stock_qty;
   console.log("Quantity Purchased: " + unitsOfProduct);
   total = price * unitsOfProduct;
