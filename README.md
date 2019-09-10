@@ -21,6 +21,11 @@ Insufficient Quantity Processing
 
 Bamazon Manager Processing
 
+* Displays a table with the inventory
+* Display products with low inventory less than 50 units
+* Add units to a products Inventory
+* Add a new Product to the database.
+
 View all Products
 ![View all Products](/images/manager1.JPG)
 
